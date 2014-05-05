@@ -13,5 +13,6 @@ CardsPerDeck (controls the size of the generate pool)
 RandSeed (any number would do. If you want to generate the same pool again, 
 remember that number!)
 
+Note that golang map keys are random - you are generating the same pool though.
 
 
