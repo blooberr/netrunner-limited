@@ -153,6 +153,8 @@ func GenerateText(cards map[string]int, isCorp bool, filename string) {
 		cardLine := fmt.Sprintf("%s x%d\n", title, value)
 		f.WriteString(cardLine)
 	}
+
+  fmt.Printf("Finished writing to %s \n", filename)
 }
 
 func main() {
@@ -175,7 +177,7 @@ func main() {
 	GenerateText(runnerDeck, false,
 		fmt.Sprintf("pools/runner-%d.txt", RandSeed))
 
-	fmt.Printf("corp deck: %#v \n", corpDeck)
-	fmt.Printf("runner deck: %#v \n", runnerDeck)
-
+	//fmt.Printf("corp deck: %#v \n", corpDeck)
+	//fmt.Printf("runner deck: %#v \n", runnerDeck)
 }
+

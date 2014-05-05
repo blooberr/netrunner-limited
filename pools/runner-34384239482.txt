@@ -1,68 +1,68 @@
 The Masque: Cyber General
-Retrieval Run x1
-Atman x1
-ZU.13 Key Master x1
-Blackmail x1
-Plascrete Carapace x1
-Sure Gamble x1
-Morning Star x1
-Armitage Codebusting x1
-Muresh Bodysuit x1
-Mass Install x1
-Copycat x1
-Hemorrhage x2
-Scavenge x1
-Sharpshooter x1
-Scheherazade x1
-R&D Interface x1
-John Masanori x1
-Demolition Run x1
-Power Nap x1
-Grifter x1
-Motivation x1
-Early Bird x1
-CyberSolutions Mem Chip x1
-Desperado x1
-The Personal Touch x1
-Satellite Uplink x2
-Diesel x1
-Dinosaurus x2
-Woman in the Red Dress x1
-Cyberfeeder x1
-Account Siphon x1
-Breach x1
-Sacrificial Construct x2
-Force of Nature x1
-Infiltration x1
-Creeper x2
-Lawyer Up x1
-Activist Support x1
-Professional Contacts x1
-HQ Interface x1
-Legwork x1
-Freelance Coding Contract x1
-Alpha x1
-Overmind x1
-Rook x1
-Emergency Shutdown x1
-Running Interference x1
-Cloak x1
-Data Leak Reversal x1
-Planned Assault x2
-Feint x1
-Parasite x2
+Savoir-faire x1
+Bug x1
 Theophilius Bagbiter x1
 Data Dealer x1
-Savoir-faire x1
-Inside Job x1
-Stimhack x1
-Medium x1
-Public Terminal x1
-Bug x1
-Grimoire x1
-Frame Job x2
-e3 Feedback Implants x1
-Unregistered S&W '35 x1
+Cyberfeeder x1
 False Echo x1
+Hemorrhage x2
+Feint x1
 Femme Fatale x1
+Frame Job x2
+Copycat x1
+HQ Interface x1
+Inside Job x1
+The Personal Touch x1
+Satellite Uplink x2
+Force of Nature x1
+Dinosaurus x2
+Plascrete Carapace x1
+John Masanori x1
+Sacrificial Construct x2
+Morning Star x1
+Atman x1
+Blackmail x1
+Rook x1
+Power Nap x1
+Muresh Bodysuit x1
+Desperado x1
+Sure Gamble x1
+Motivation x1
+Professional Contacts x1
+Demolition Run x1
+CyberSolutions Mem Chip x1
+Sharpshooter x1
+Infiltration x1
+Retrieval Run x1
+Data Leak Reversal x1
+Scavenge x1
+Breach x1
+Woman in the Red Dress x1
+Armitage Codebusting x1
+Public Terminal x1
+Creeper x2
+Cloak x1
+Alpha x1
+Diesel x1
+ZU.13 Key Master x1
+e3 Feedback Implants x1
+Running Interference x1
+Freelance Coding Contract x1
+Activist Support x1
+Planned Assault x2
+Parasite x2
+Grifter x1
+Emergency Shutdown x1
+Legwork x1
+Medium x1
+Unregistered S&W '35 x1
+Overmind x1
+Scheherazade x1
+R&D Interface x1
+Early Bird x1
+Grimoire x1
+Mass Install x1
+Account Siphon x1
+Stimhack x1
 Akamatsu Mem Chip x1
+Lawyer Up x1
