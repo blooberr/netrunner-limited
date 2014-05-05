@@ -15,8 +15,13 @@ const (
 	RandSeed     = 34384239482
 )
 
+// no need to generate identities within the pool. totally optional though.
 var ExcludeTypeCode = [...]string{"identity"}
+
+// removing special /a lternative art cards
 var ExcludeSetCode = [...]string{"special", "alt"}
+
+// removing 6 since lunar cycle isn't out yet
 var ExcludeCycleNumber = [...]int{6}
 
 type Card struct {
