@@ -9,10 +9,11 @@ of cards.
 Will eventually support external flags.  Right now, the important constants to
 modify are:
 
-CardsPerDeck (controls the size of the generate pool)
-RandSeed (any number would do. If you want to generate the same pool again, 
+1. CardsPerDeck (controls the size of the generate pool)
+2. RandSeed (any number would do. If you want to generate the same pool again, 
 remember that number!)
 
 Note that golang map keys are random - you are generating the same pool though.
+
 
 
