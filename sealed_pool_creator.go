@@ -7,6 +7,7 @@ import (
 	"log"
 	"math/rand"
 	"os"
+  "sort"
 )
 
 const (
@@ -134,6 +135,19 @@ func GeneratePool(cardPoolSize int, cards []Card) (pool map[string]int) {
 	return pool
 }
 
+func SortCards(cards map[string]int) (sortedCardNames []string) {
+  cardNames := make([]string, len(cards))
+
+  i := 0
+  for cardName, _ := range cards {
+    cardNames[i] = cardName
+    i++
+  }
+
+  sort.Strings(cardNames)
+  return cardNames
+}
+
 func GenerateText(cards map[string]int, isCorp bool, filename string) {
 	f, err := os.Create(filename)
 	if err != nil {
@@ -149,10 +163,12 @@ func GenerateText(cards map[string]int, isCorp bool, filename string) {
 		f.WriteString("The Masque: Cyber General\n")
 	}
 
-	for title, value := range cards {
-		cardLine := fmt.Sprintf("%s x%d\n", title, value)
-		f.WriteString(cardLine)
-	}
+  sortedCardNames := SortCards(cards)
+
+  for _, cardName := range sortedCardNames {
+    cardLine := fmt.Sprintf("%s x%d\n", cardName, cards[cardName])
+    f.WriteString(cardLine)
+  }
 
   fmt.Printf("Finished writing to %s \n", filename)
 }
