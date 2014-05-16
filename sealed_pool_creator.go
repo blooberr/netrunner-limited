@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -11,7 +12,9 @@ import (
 )
 
 const (
-	PathToCards  = "./data/cards.json"
+	PathToCards = "./data/cards.json"
+
+	// defaults
 	CardsPerDeck = 75
 	RandSeed     = 34384239482
 )
@@ -173,6 +176,15 @@ func GenerateText(cards map[string]int, isCorp bool, filename string) {
 	fmt.Printf("Finished writing to %s \n", filename)
 }
 
+var cardsPerDeck int
+var randSeed int
+
+func init() {
+	flag.IntVar(&cardsPerDeck, "cards_per_deck", CardsPerDeck, "Enter number of cards for each pool (corp/ runner).  Default is 75.")
+	flag.IntVar(&randSeed, "random_seed", RandSeed, "Enter any random number seed. You can always re-use this number to generate the same pool.")
+	flag.Parse()
+}
+
 func main() {
 	rand.Seed(RandSeed)
 
@@ -184,14 +196,17 @@ func main() {
 
 	corp, runner := ProcessFile(file)
 
-	corpDeck := GeneratePool(CardsPerDeck, corp)
-	runnerDeck := GeneratePool(CardsPerDeck, runner)
+	fmt.Printf("Generating pools of size %d with seed %d.\n",
+		cardsPerDeck, randSeed)
+
+	corpDeck := GeneratePool(cardsPerDeck, corp)
+	runnerDeck := GeneratePool(cardsPerDeck, runner)
 
 	GenerateText(corpDeck, true,
-		fmt.Sprintf("pools/corp-%d.txt", RandSeed))
+		fmt.Sprintf("pools/corp-%d-%d.txt", cardsPerDeck, randSeed))
 
 	GenerateText(runnerDeck, false,
-		fmt.Sprintf("pools/runner-%d.txt", RandSeed))
+		fmt.Sprintf("pools/runner-%d-%d.txt", cardsPerDeck, randSeed))
 
 	//fmt.Printf("corp deck: %#v \n", corpDeck)
 	//fmt.Printf("runner deck: %#v \n", runnerDeck)
