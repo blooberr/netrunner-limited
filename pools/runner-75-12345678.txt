@@ -1,68 +1,60 @@
 The Masque: Cyber General
-Account Siphon x1
-Activist Support x1
-Akamatsu Mem Chip x1
-Alpha x1
-Armitage Codebusting x1
-Atman x1
-Blackmail x1
+Aurora x1
+Battering Ram x1
+Bishop x2
 Breach x1
-Bug x1
-Cloak x1
-Copycat x1
-Creeper x2
-CyberSolutions Mem Chip x1
-Cyberfeeder x1
-Data Dealer x1
-Data Leak Reversal x1
-Demolition Run x1
-Desperado x1
+Capstone x1
+Crypsis x1
+Cyberfeeder x2
+Daily Casts x1
+Darwin x1
+Demolition Run x2
 Diesel x1
-Dinosaurus x2
-Early Bird x1
-Emergency Shutdown x1
+Dinosaurus x1
+Disrupter x1
+Escher x1
+Eureka! x1
+Exploratory Romp x1
 False Echo x1
-Feint x1
-Femme Fatale x1
-Force of Nature x1
-Frame Job x2
+Forged Activation Orders x1
 Freelance Coding Contract x1
-Grifter x1
-Grimoire x1
-HQ Interface x1
-Hemorrhage x2
+Gorman Drip v1 x1
+Hard at Work x2
+Ice Analyzer x1
+Indexing x1
 Infiltration x1
-Inside Job x1
-John Masanori x1
+Inside Man x1
+Inti x2
 Lawyer Up x1
-Legwork x1
-Mass Install x1
-Medium x1
-Morning Star x1
-Motivation x1
-Muresh Bodysuit x1
-Overmind x1
-Parasite x2
-Planned Assault x2
+Liberated Account x1
+Magnum Opus x1
+Nerve Agent x2
+Net Shield x1
+Notoriety x2
+Oracle May x1
+Paintbrush x1
+Paricia x1
+Peacock x3
 Plascrete Carapace x1
-Power Nap x1
-Professional Contacts x1
-Public Terminal x1
-R&D Interface x1
-Retrieval Run x1
+Prepaid VoicePAD x1
+Public Sympathy x1
+Push Your Luck x1
+Q-Coherence Chip x2
+Queen's Gambit x1
+Raymond Flint x1
+Recon x2
 Rook x1
 Running Interference x1
-Sacrificial Construct x2
-Satellite Uplink x2
 Savoir-faire x1
 Scavenge x1
-Scheherazade x1
-Sharpshooter x1
+Scrubber x3
+Sneakdoor Beta x2
+Snowball x1
 Stimhack x1
-Sure Gamble x1
 The Personal Touch x1
-Theophilius Bagbiter x1
-Unregistered S&W '35 x1
-Woman in the Red Dress x1
+Torch x1
+Tri-maf Contact x1
+Underworld Contact x2
+Vamp x1
+Xanadu x2
 ZU.13 Key Master x1
-e3 Feedback Implants x1

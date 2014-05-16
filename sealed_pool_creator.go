@@ -177,16 +177,16 @@ func GenerateText(cards map[string]int, isCorp bool, filename string) {
 }
 
 var cardsPerDeck int
-var randSeed int
+var randSeed int64
 
 func init() {
 	flag.IntVar(&cardsPerDeck, "cards_per_deck", CardsPerDeck, "Enter number of cards for each pool (corp/ runner).  Default is 75.")
-	flag.IntVar(&randSeed, "random_seed", RandSeed, "Enter any random number seed. You can always re-use this number to generate the same pool.")
+	flag.Int64Var(&randSeed, "random_seed", RandSeed, "Enter any random number seed. You can always re-use this number to generate the same pool.")
 	flag.Parse()
 }
 
 func main() {
-	rand.Seed(RandSeed)
+	rand.Seed(randSeed)
 
 	file, err := ioutil.ReadFile(PathToCards)
 	if err != nil {
